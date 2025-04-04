@@ -8,6 +8,7 @@ import OpeningHours from "@/components/openinghours";
 import Reservation from "@/components/reservation";
 import Carousel from "@/components/carousel";
 import Card from "@/components/cards";
+import LoginPage from "@/components/login";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Location />
       <OpeningHours />
       <Footer />
+      <LoginPage />
     </>
   );
 }
